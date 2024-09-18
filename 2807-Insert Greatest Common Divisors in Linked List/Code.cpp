@@ -1,3 +1,4 @@
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -8,6 +9,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
@@ -42,3 +44,4 @@ private:
         return a;
     }
 };
+
