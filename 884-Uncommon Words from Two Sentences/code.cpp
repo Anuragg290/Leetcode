@@ -1,3 +1,4 @@
+
 class Solution {
 public:
     vector<string> uncommonFromSentences(string s1, string s2) {
@@ -12,6 +13,7 @@ public:
             }
             i++;
             mp[t]++;
+            
         }
         int j = 0;
         while (j < s2.size()) {
@@ -23,6 +25,7 @@ public:
             j++;
             mp[t]++;
         }
+        
         vector<string> v;
         for (auto it : mp)
             if (it.second == 1)
